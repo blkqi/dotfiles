@@ -1,0 +1,11 @@
+[Unit]
+Description=Urxvt Daemon
+
+[Service]
+Environment=SHELL=/bin/zsh
+ExecStart=/usr/bin/urxvtd
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=basic.target
