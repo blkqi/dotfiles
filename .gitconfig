@@ -1,0 +1,15 @@
+[user]
+	email = bkleinschmidt@ididata.com
+	name = Brett L Kleinschmidt
+
+[alias]
+  st = status --short
+  ci = commit
+  br = branch
+  co = checkout
+  ch = cherry-pick
+  df = diff
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  pushm = push origin master
+
+
