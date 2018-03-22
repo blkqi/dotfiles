@@ -3,9 +3,9 @@
 !-------------------------------------------------------------------------------
 
 Xft.dpi:                    96
-Xft.antialias:              false
+Xft.antialias:              true
 Xft.rgba:                   rgb
-Xft.hinting:                false
+Xft.hinting:                true
 Xft.hintstyle:              hintslight
 
 !-------------------------------------------------------------------------------
@@ -27,9 +27,14 @@ URxvt.internalBorder:       3
 URxvt.lineSpace:            0
 
 ! Fonts
-URxvt.allow_bold:           false
-URxvt*font:                 -*-proggycleancp-medium-r-normal-*-*-*-*-*-*-*-*-*
-URxvt*boldFont:             -*-proggycleancp-medium-r-normal-*-*-*-*-*-*-*-*-*
+URxvt.allow_bold:           true
+!rofi*font:                  pango:Iosevka Term 11
+rofi*font:                  Iosevka Term 11
+URxvt*font:                 xft:Iosevka Term:style=Regular:size=11
+URxvt*boldFont:             xft:Iosevka Term:style=Bold:size=11
+URxvt*italicFont:           xft:Iosevka Term:style=Italic:size=11
+!URxvt*font:                 -*-proggycleancp-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont:             -*-proggycleancp-medium-r-normal-*-*-*-*-*-*-*-*-*
 
 ! Fix font space
 URxvt*letterSpace:          0
