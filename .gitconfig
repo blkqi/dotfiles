@@ -1,6 +1,6 @@
 [user]
-	email = bkleinschmidt@ididata.com
-	name = Brett L Kleinschmidt
+  email = blk@blk.me
+  name = Brett Kleinschmidt
 
 [alias]
   st = status --short
